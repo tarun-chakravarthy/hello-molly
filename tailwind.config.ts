@@ -8,6 +8,16 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["Poppins", "sans-serif"],
+        serif: ["Rufina", "serif"],
+      },
+      colors: {
+        primary: "#224F34",
+        secondary: "#F2F2F2",
+        whiteColor: "#FFFFFF",
+        backgroundAccent: "#C2EFD4",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -15,6 +25,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [require('daisyui'), require('@tailwindcss/typography')],
 };
 export default config;
