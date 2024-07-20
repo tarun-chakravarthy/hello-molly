@@ -1,0 +1,114 @@
+{
+  "BestSelling": [
+    {
+      "id": 1,
+      "productImage": "/product-images/product1.png",
+      "productTitle": "Eco-friendly Water Bottle",
+      "productDescription": "A sustainable water bottle made from recycled materials.",
+      "price": 19.99,
+      "starRating": 4.5
+    },
+    {
+      "id": 2,
+      "productImage": "/product-images/product2.png",
+      "productTitle": "Organic Cotton T-shirt",
+      "productDescription": "Soft, eco-friendly T-shirt made from 100% organic cotton.",
+      "price": 29.99,
+      "starRating": 4.7
+    },
+    {
+      "id": 3,
+      "productImage": "/product-images/product3.png",
+      "productTitle": "Organic Cotton T-shirt",
+      "productDescription": "Soft, eco-friendly T-shirt made from 100% organic cotton.",
+      "price": 29.99,
+      "starRating": 4.7
+    }
+  ],
+  "AllProducts": [
+    {
+      "id": 1,
+      "productImage": "/product-images/product1.png",
+      "productTitle": "Eco-friendly Water Bottle",
+      "productDescription": "A sustainable water bottle made from recycled materials.",
+      "price": 19.99,
+      "starRating": 4.5
+    },
+    {
+      "id": 2,
+      "productImage": "/product-images/product2.png",
+      "productTitle": "Organic Cotton T-shirt",
+      "productDescription": "Soft, eco-friendly T-shirt made from 100% organic cotton.",
+      "price": 29.99,
+      "starRating": 4.7
+    },
+    {
+      "id": 3,
+      "productImage": "/product-images/product3.png",
+      "productTitle": "Organic Cotton T-shirt",
+      "productDescription": "Soft, eco-friendly T-shirt made from 100% organic cotton.",
+      "price": 29.99,
+      "starRating": 4.7
+    },
+    {
+      "id": 4,
+      "productImage": "/product-images/product4.png",
+      "productTitle": "Organic Cotton T-shirt",
+      "productDescription": "Soft, eco-friendly T-shirt made from 100% organic cotton.",
+      "price": 29.99,
+      "starRating": 4.7
+    },
+    {
+      "id": 5,
+      "productImage": "/product-images/product5.png",
+      "productTitle": "Organic Cotton T-shirt",
+      "productDescription": "Soft, eco-friendly T-shirt made from 100% organic cotton.",
+      "price": 29.99,
+      "starRating": 4.7
+    },
+    {
+      "id": 6,
+      "productImage": "/product-images/product6.png",
+      "productTitle": "Organic Cotton T-shirt",
+      "productDescription": "Soft, eco-friendly T-shirt made from 100% organic cotton.",
+      "price": 29.99,
+      "starRating": 4.7
+    },
+    {
+      "id": 7,
+      "productImage": "/product-images/product7.png",
+      "productTitle": "Organic Cotton T-shirt",
+      "productDescription": "Soft, eco-friendly T-shirt made from 100% organic cotton.",
+      "price": 29.99,
+      "starRating": 4.7
+    },
+    {
+      "id": 8,
+      "productImage": "/product-images/product8.png",
+      "productTitle": "Organic Cotton T-shirt",
+      "productDescription": "Soft, eco-friendly T-shirt made from 100% organic cotton.",
+      "price": 29.99,
+      "starRating": 4.7
+    }
+  ],
+  "DesignerProducts": [
+    {
+      "id": 1,
+      "productImage": "/product-images/product8.png",
+      "productTitle": "Accessories",
+      "productDescription": "Complete your ensemble with designer accessories such as handbags, scarves, belts, and hats."
+    },
+    {
+      "id": 2,
+      "productImage": "/product-images/product8.png",
+      "productTitle": "Dresses",
+      "productDescription": "Explore a stunning range of designer dresses, including evening gowns and chic day dresses."
+    },
+    {
+      "id": 3,
+      "productImage": "/product-images/product8.png",
+      "productTitle": "Outerwear",
+      "productDescription": "Browse luxurious designer coats, jackets, and blazers to stay stylishly warm during colder seasons."
+    }
+  ]
+}

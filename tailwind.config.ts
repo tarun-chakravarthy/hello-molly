@@ -11,12 +11,15 @@ const config: Config = {
       fontFamily: {
         sans: ["Poppins", "sans-serif"],
         serif: ["Rufina", "serif"],
+        robotoSlab: ["Roboto Slab", "serif"],
       },
       colors: {
         primary: "#224F34",
         secondary: "#F2F2F2",
         whiteColor: "#FFFFFF",
         backgroundAccent: "#C2EFD4",
+        textColor: "#267D49",
+        textDark: "#373737"
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
