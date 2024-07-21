@@ -4,8 +4,7 @@ import { Product } from "../../types/productTypes";
 import productsData from "../../data/productsData.json";
 import Button from "../UI/Button";
 
-
-
+// Best selling products section
 const BestSellingProducts: React.FC = () => {
 
   const bestSelling: Product[] = productsData.BestSelling;

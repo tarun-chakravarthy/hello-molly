@@ -5,6 +5,7 @@ import { Product } from "../../types/productTypes";
 import productsData from "../../data/productsData.json";
 
 
+// Product grids
 const ProductsComponent: React.FC = () => {
 
   const allProducts: Product[] = productsData.AllProducts;

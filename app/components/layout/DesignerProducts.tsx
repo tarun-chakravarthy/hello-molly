@@ -3,8 +3,7 @@ import Image from "next/image";
 import { Product } from "../../types/productTypes";
 import productsData from "../../data/productsData.json";
 
-
-
+// Designer products section
 const DesignerProducts: React.FC = () => {
 
   const designerProducts: Product[] = productsData.DesignerProducts;

@@ -5,6 +5,7 @@ interface SectionHeadingProps {
     description: string;
 }
 
+// Homepage section heading's and description's
 const SectionHeading: React.FC<SectionHeadingProps> = ({ title, description }) => {
     return (
         <div className="container mx-auto text-primary text-center p-4 md:pt-16 md:pb-12">

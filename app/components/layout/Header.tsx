@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Button from "../UI/Button";
 
+// Navbar
 const Header: React.FC = () => {
     return (
         <div className="py-4">

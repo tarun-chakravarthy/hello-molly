@@ -7,6 +7,7 @@ interface HeroComponentProps {
     image?: string;
 }
 
+// Home page hero section
 const HeroComponent: React.FC<HeroComponentProps> = ({ title, subtitle, image }) => {
     return (
         <div className="container bg-backgroundAccent mx-auto p-6 md:py-24 md:px-0">

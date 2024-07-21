@@ -8,7 +8,7 @@ interface ExclusiveOfferProps {
     subtitle: string;
 }
 
-
+// Offer ends soon component
 const ExclusiveOffer: React.FC<ExclusiveOfferProps> = ({ title, subtitle }) => {
     return (
         <div className="container mx-auto py-8">
