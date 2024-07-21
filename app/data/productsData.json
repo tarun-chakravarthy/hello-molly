@@ -2,111 +2,111 @@
   "BestSelling": [
     {
       "id": 1,
-      "productImage": "/product-images/product1.png",
-      "productTitle": "Eco-friendly Water Bottle",
+      "productImage": "/best-selling/best-sell-3.png",
+      "productTitle": "Regular Fit Long Sleeve Top",
       "productDescription": "A sustainable water bottle made from recycled materials.",
-      "price": 19.99,
-      "starRating": 4.5
+      "price": 38.99,
+      "starRating": 5.0
     },
     {
       "id": 2,
-      "productImage": "/product-images/product2.png",
-      "productTitle": "Organic Cotton T-shirt",
+      "productImage": "/best-selling/best-sell-2.png",
+      "productTitle": "Black Crop Tailored Jacket",
       "productDescription": "Soft, eco-friendly T-shirt made from 100% organic cotton.",
-      "price": 29.99,
-      "starRating": 4.7
+      "price": 62.99,
+      "starRating": 4.9
     },
     {
       "id": 3,
-      "productImage": "/product-images/product3.png",
-      "productTitle": "Organic Cotton T-shirt",
+      "productImage": "/best-selling/best-sell-1.png",
+      "productTitle": "Textured Sunset Shirt",
       "productDescription": "Soft, eco-friendly T-shirt made from 100% organic cotton.",
-      "price": 29.99,
-      "starRating": 4.7
+      "price": 49.99,
+      "starRating": 5.0
     }
   ],
   "AllProducts": [
     {
       "id": 1,
       "productImage": "/product-images/product1.png",
-      "productTitle": "Eco-friendly Water Bottle",
+      "productTitle": "Spread Collar Shirt",
       "productDescription": "A sustainable water bottle made from recycled materials.",
-      "price": 19.99,
-      "starRating": 4.5
+      "price": 48.99,
+      "starRating": 5.0
     },
     {
       "id": 2,
       "productImage": "/product-images/product2.png",
-      "productTitle": "Organic Cotton T-shirt",
+      "productTitle": "White Solid Formal Shirt",
       "productDescription": "Soft, eco-friendly T-shirt made from 100% organic cotton.",
-      "price": 29.99,
+      "price": 39.99,
       "starRating": 4.7
     },
     {
       "id": 3,
       "productImage": "/product-images/product3.png",
-      "productTitle": "Organic Cotton T-shirt",
+      "productTitle": "Shine On Me Blouse",
       "productDescription": "Soft, eco-friendly T-shirt made from 100% organic cotton.",
-      "price": 29.99,
+      "price": 42.99,
       "starRating": 4.7
     },
     {
       "id": 4,
       "productImage": "/product-images/product4.png",
-      "productTitle": "Organic Cotton T-shirt",
+      "productTitle": "Gray Solid Padded Jacket",
       "productDescription": "Soft, eco-friendly T-shirt made from 100% organic cotton.",
-      "price": 29.99,
+      "price": 32.99,
       "starRating": 4.7
     },
     {
       "id": 5,
       "productImage": "/product-images/product5.png",
-      "productTitle": "Organic Cotton T-shirt",
+      "productTitle": "Printed Loose T-shirt",
       "productDescription": "Soft, eco-friendly T-shirt made from 100% organic cotton.",
-      "price": 29.99,
+      "price": 39.99,
       "starRating": 4.7
     },
     {
       "id": 6,
       "productImage": "/product-images/product6.png",
-      "productTitle": "Organic Cotton T-shirt",
+      "productTitle": "Summer Wind Crop Shirt",
       "productDescription": "Soft, eco-friendly T-shirt made from 100% organic cotton.",
-      "price": 29.99,
+      "price": 39.95,
       "starRating": 4.7
     },
     {
       "id": 7,
       "productImage": "/product-images/product7.png",
-      "productTitle": "Organic Cotton T-shirt",
+      "productTitle": "Tailored Jacket",
       "productDescription": "Soft, eco-friendly T-shirt made from 100% organic cotton.",
-      "price": 29.99,
-      "starRating": 4.7
+      "price": 46.00,
+      "starRating": 4.9
     },
     {
       "id": 8,
       "productImage": "/product-images/product8.png",
-      "productTitle": "Organic Cotton T-shirt",
+      "productTitle": "Solid Round Neck T-shirt",
       "productDescription": "Soft, eco-friendly T-shirt made from 100% organic cotton.",
-      "price": 29.99,
-      "starRating": 4.7
+      "price": 36.00,
+      "starRating": 5.0
     }
   ],
   "DesignerProducts": [
     {
       "id": 1,
-      "productImage": "/product-images/product8.png",
+      "productImage": "/designer/designer-1.png",
       "productTitle": "Accessories",
       "productDescription": "Complete your ensemble with designer accessories such as handbags, scarves, belts, and hats."
     },
     {
       "id": 2,
-      "productImage": "/product-images/product8.png",
+      "productImage": "/designer/designer-2.png",
       "productTitle": "Dresses",
       "productDescription": "Explore a stunning range of designer dresses, including evening gowns and chic day dresses."
     },
     {
       "id": 3,
-      "productImage": "/product-images/product8.png",
+      "productImage": "/designer/designer-copy.png",
       "productTitle": "Outerwear",
       "productDescription": "Browse luxurious designer coats, jackets, and blazers to stay stylishly warm during colder seasons."
     }

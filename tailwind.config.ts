@@ -8,10 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      boxShadow: {
+        "textBlack-400/60": "0 1px 3px rgba(0, 0, 0, 1)",
+      },
       fontFamily: {
-        sans: ["Poppins", "sans-serif"],
-        serif: ["Rufina", "serif"],
-        robotoSlab: ["Roboto Slab", "serif"],
+        sans: [  "Poppins", "sans-serif"],
+        serif: ["Rufina"],
+        robotoSlab: ["Roboto Slab"],
       },
       colors: {
         primary: "#224F34",
@@ -19,7 +22,13 @@ const config: Config = {
         whiteColor: "#FFFFFF",
         backgroundAccent: "#C2EFD4",
         textColor: "#267D49",
-        textDark: "#373737"
+        textDark: "#373737",
+        textBlack: "#454545",
+        rectangleColor: "#A9D4BA",
+        rectangleColor2: "#93B9A2",
+        rectangleColor3: "#DDECE2",
+        rectangleColor4: "#D9D9D9",
+        cardText: "#454545",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -28,6 +37,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [require('daisyui'), require('@tailwindcss/typography')],
+  plugins: [require("daisyui"), require("@tailwindcss/typography")],
 };
 export default config;

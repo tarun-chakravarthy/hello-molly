@@ -18,7 +18,7 @@ const Header: React.FC = () => {
                         <li><Link href="/contact">Contact</Link></li>
                     </ul>
                 </div>
-                <div className="navbar-end items-center">
+                <div className="navbar-end gap-8">
                     <Image src="/icons/cart-icon.svg" alt="Cart" width={30} height={30} />
                     <Button buttonText="Login"  outline/>
                 </div>

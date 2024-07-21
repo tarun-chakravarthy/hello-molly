@@ -35,17 +35,51 @@ body {
 
 @layer base {
   h1 {
-    @apply text-primary font-serif text-8xl font-medium;
-    line-height: 106.21px;
+    @apply text-primary font-serif md:text-8xl text-4xl font-medium;
   }
   h2 {
-    @apply text-primary;
-    font-size: 64px;
-    line-height: 84.41px;
-    font-weight: 500;
-    font-family: "Roboto Slab", serif;
+    @apply text-primary font-medium;
+    font-size: 50px;
+    line-height: 66px;
   }
   p {
-    @apply font-medium text-lg leading-8 uppercase;
+    @apply font-medium text-lg leading-8 tracking-wider;
   }
+
+  button, a, span, p {
+    @apply font-sans;
+  }
+
+  .custom-line-height {
+    line-height: initial;
+  }
+
+  .add-dots-top,
+  .add-dots-bottom {
+    position: relative;
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      width: 119px;
+      height: 110px;
+      background-image: url(/icons/dots.svg);
+      background-size: cover;
+    }
+  }
+  
+  .add-dots-top {
+    &::before {
+      top: 19%;
+      right: 2%;
+    }
+  }
+
+  .add-dots-bottom {
+    &::after {
+      bottom: 10%;
+      left: 3%;
+    }
+  }
+
 }

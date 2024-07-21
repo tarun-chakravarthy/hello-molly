@@ -7,9 +7,9 @@ interface SectionHeadingProps {
 
 const SectionHeading: React.FC<SectionHeadingProps> = ({ title, description }) => {
     return (
-        <div className="container mx-auto text-primary text-center my-16 font-roboto">
+        <div className="container mx-auto text-primary text-center p-4 md:pt-16 md:pb-12">
             <h2>{title}</h2>
-            <p className="normal-case">{description}</p>
+            <p className="normal-case mt-2">{description}</p>
         </div>
     );
 };

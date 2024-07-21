@@ -5,10 +5,11 @@ type ButtonProps = {
     primary?: boolean;
     buttonText: string;
     showArrow?: boolean;
+    shadow?: boolean;
 };
 
 const PrimaryButton: React.FC<ButtonProps> = ({ primary, buttonText, showArrow }) => {
-    const buttonStyle = primary ? "btn-primary rounded-sm drop-shadow-2xl uppercase text-sm rounded-none btn border-primary text-white min-h-0 h-auto py-4 px-8 hover:border-transparent bg-primary hover:text-whiteColor" : "";
+    const buttonStyle = primary ? "btn-primary rounded-sm uppercase text-sm rounded-none btn border-primary text-white min-h-0 h-auto py-3 px-10 hover:border-transparent bg-primary hover:text-whiteColor font-medium" : "";
 
     return (
         <button className={`btn ${buttonStyle}`}>

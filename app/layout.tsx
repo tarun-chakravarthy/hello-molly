@@ -8,6 +8,12 @@ const poppins = Poppins({
   subsets: ["latin"]
 });
 
+const roboto = Roboto_Slab({
+  weight: "400",
+  style: "normal",
+  subsets: ["latin"]
+});
+
 
 export const metadata: Metadata = {
   title: "Hello Molly",
@@ -22,7 +28,7 @@ export default function RootLayout({
   return (
   
     <html lang="en">
-      <body className={poppins.className}>{children}</body>
+      <body className={roboto.className}>{children}</body>
     </html>
   );
 }
